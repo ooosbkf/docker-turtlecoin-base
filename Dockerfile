@@ -30,12 +30,10 @@ RUN cp src/TurtleCoind /usr/local/bin/TurtleCoind && \
     cp src/walletd /usr/local/bin/walletd && \
     cp src/simplewallet /usr/local/bin/simplewallet && \
     cp src/miner /usr/local/bin/miner && \
-    cp src/connectivity_tool /usr/local/bin/connectivity_tool && \
     strip /usr/local/bin/TurtleCoind && \
     strip /usr/local/bin/walletd && \
     strip /usr/local/bin/simplewallet && \
-    strip /usr/local/bin/miner && \
-    strip /usr/local/bin/connectivity_tool
+    strip /usr/local/bin/miner
 
 WORKDIR /
 
